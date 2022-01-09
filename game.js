@@ -23,7 +23,7 @@ function moveUp() {
     yPos -= 25;
 }
 
-var pipe = [];
+const pipe = [];
 
 pipe[0] = {
     x : cvs.width,
@@ -43,7 +43,7 @@ function draw() {
 
         pipe[i].x--;  
     }
-    
+
     ctx.drawImage(fg, 0, cvs.height - fg.height);
     ctx.drawImage(bird, xPos, yPos);
 
