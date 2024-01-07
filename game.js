@@ -81,6 +81,10 @@ function moveUp() {
     fly_audio.play();
 }
 
+function quitGame() {
+    window.close();
+}
+
 const pipe = [];
 pipe[0] = {
     x: cvs.width,
